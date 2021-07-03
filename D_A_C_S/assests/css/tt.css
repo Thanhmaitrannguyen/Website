@@ -1,0 +1,311 @@
+    .title{
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .title__ke{
+        width: 100px;
+        height: 2px;
+        background-color: #000;
+    }
+
+    .cart-header {
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #333;
+      }
+      
+      .cart-column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+      }
+      
+      .cart-row {
+        display: flex;
+      }
+      
+      .cart-item {
+        width: 45%;
+      }
+      
+      .cart-price {
+        width: 20%;
+        font-size: 1.2em;
+        color: #333;
+      }
+      
+      .cart-quantity {
+        width: 35%;
+      }
+      
+      .cart-item-title {
+        color: #333;
+        margin-left: .5em;
+        font-size: 1.2em;
+      }
+      
+      .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+      }
+      
+      .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        border-radius: .3em;
+        font-weight: bold;
+      }
+      
+      .btn-danger:hover {
+        background-color: #CC4C4C;
+      }
+      
+      .cart-quantity-input {
+        height: 34px;
+        width: 50px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 25px;
+      }
+      
+      .cart-row:last-child {
+        border-bottom: 1px solid black;
+      }
+      
+      .cart-row:last-child .cart-column {
+        border: none;
+      }
+      
+      .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 32px;
+        padding-top: 32px;
+      }
+      
+      .cart-total-title {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: black;
+        margin-right: 20px;
+      }
+      
+      .cart-total-price {
+        color: rgb(173, 20, 20);
+        font-size: 1.6em;
+      }
+
+      .car-total-btn{
+          font-size: 16px;
+          text-decoration: none;
+          padding: 8px 16px;
+          background-color: var(--yellow-color);
+          color: #fff;
+      }
+
+      .thongtin{
+        width: 50%;
+        display: inline-block;
+      }
+
+      .thongtin__title{
+        font-size: 24px;
+        margin: 32px 0
+      }
+
+      .thongtin__view-lastname{
+        float: left;
+        width: 50%;
+        margin: 0;
+      }
+
+      .thongtin__view-lastname label{
+        display: block;
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+
+      .thongtin__view-lastname span{
+        display: block;
+        margin: 0 6px 12px 0;
+      }
+
+      .thongtin__view-lastname span input{
+        font-size: 12px;
+        width: 100%;
+        padding: 8px 16px;
+      }
+
+      .thongtin__view-fistname{
+        float: left;
+        width: 50%;
+        margin: 0;
+      }
+
+      .thongtin__view-fistname label{
+        display: block;
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+
+      .thongtin__view-fistname span{
+        display: block;
+      }
+
+      .thongtin__view-fistname span input{
+        font-size: 12px;
+        width: 100%;
+        padding: 8px 16px;
+      }
+
+      .thongtin__view p label{
+        display: block;
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+
+      .thongtin__view p span{
+        display: block;
+      }
+
+      .thongtin__view p span input{
+        font-size: 12px;
+        width: 100%;
+        padding: 8px 16px;
+      }
+
+      .thongtin__view p span textarea{
+        font-size: 12px;
+        width: 100%;
+        padding: 12px 12px;
+      }
+
+      .tinhtien{
+        width: 50%;
+        float: right;
+        padding: 0 12px;
+        margin-top: 40px;
+      }
+
+      .tinhtien__form{
+        margin: 0 12px;
+        border: 1px solid #ccc;
+        padding: 12px;
+        margin-bottom: 24px;
+      }
+      
+      .tinhtien__form h5{
+        font-size: 16px;
+      }
+
+      .tinhtien__form-title{
+        font-size: 24px;
+      }
+
+      .tinhtien__form .col-6{
+        font-size: 16px;
+      }
+
+      .tinhtien__form .col-6 h5{
+        font-size: 16px;
+      } 
+
+      .tinhtien__form  span{
+        line-height: 50px;
+        margin-left: 5px;
+      }
+
+      .a{
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .tinhtien__form ul{
+        list-style: none;
+      }
+
+      .tinhtien__form ul label{
+        font-size: 12px;
+      }
+
+      .tinhtien__form p{
+        font-size: 12px;
+      }
+
+      .tinhtien__form p a{
+        color: #CC4C4C;
+      }
+
+      .tinhtien__form p a:hover{
+        text-decoration: underline;
+
+        cursor: pointer;
+      }
+
+      .tinhtien__form label{
+        font-size: 12px;
+      }
+
+      .tinhtien__form input{
+        float: left;
+        margin-right: 4px;
+      }
+
+      .tinhtien__form-btn{
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      .tinhtien__form-btn button{
+        font-size: 20px;
+        border: none;
+        padding: 8px 16px;
+        background-color: var(--yellow-color);
+        color: #fff;
+      }
+
+      .tinhtien__form-btn button:hover{
+        background-color: #d0a713;
+      }
+
+
+      @media (min-width:1024px){
+
+      }
+
+      @media (min-width:740px) and (max-width: 1023px){
+        .thongtin{
+          width: 100%;
+          padding: 0 18px;
+        }
+
+        .tinhtien{
+          width: 100%;
+          padding: 0 12px;
+        }
+      }
+
+      @media (max-width : 739px) {
+        .thongtin{
+          width: 100%;
+          padding: 0 12px;
+        }
+
+        .tinhtien{
+          width: 100%;
+          padding: 0 12px;
+        }
+      }

@@ -1,0 +1,363 @@
+/* Navbar */
+
+.navbar{
+    background-color: #212529;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 0;
+}
+
+.navbar__logo{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.navbar__logo > a{
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+.navbar__list-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar__list-item{
+    padding: 0 12px;
+}
+
+.navbar__list-item-link{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.navbar-item-cart-btn{
+    padding: 8px 6px;
+    font-size: 16px;
+    border: 2px solid var(--yellow-color);
+    color: var(--yellow-color);
+    background-color: #212529;
+}
+
+.navbar-item-cart-number{
+    font-size: 12px;
+    padding: 0 3px;
+    color: var(--black-color);
+    background-color: #343a40;
+    color:var(--white-color);
+    border-radius: 50%;
+}
+.navbar-item-cart .navbar-item-cart-btn:hover{
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.navbar__list-item:hover .navbar__list-item-link{
+    color: var(--yellow-color);
+}
+
+/* content */
+#content{
+    margin-top: 48px;
+    padding-top: 58;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product{
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0 12px;
+    margin-bottom: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%)       
+}
+
+.product__card{
+    position: relative;
+}
+
+.product__share{
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    background-color: #343a40 ;
+    color: var(--white-color);
+    padding: 3px 5px;
+    margin: 4px 4px 0 0 ;
+    border-radius: 4px;
+}
+
+.product__card-img{
+    max-width: 100%;
+}
+
+.text__center{
+    text-align: center;
+    padding: 24px;
+}
+
+.text__center h6{
+    font-size: 20px;
+    margin: 0 0 8px;
+}
+
+.fa-star{
+    font-size: 16px;
+    color: var(--yellow-color);
+    margin-bottom: 8px;
+}
+
+ .text__center>*{
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+ }
+
+ .product__noprice{
+     text-decoration: line-through;
+     font-size: 16px;
+     opacity: 0.7;
+ }
+
+ .product__price{
+    font-size: 16px;
+    margin: 8px 0 ;
+}
+
+.product__btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 24px;
+}
+
+.product__btn>a{
+    text-decoration: none;
+    padding: 8px 32px;
+    border: 2px solid var(--yellow-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+}
+
+.product__btn:hover a{
+    background-color: #FED136;
+    color:#fff;
+}
+
+/* Contact */
+
+#contact{
+    background-color: #212529;
+}
+
+#contact .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 12px 0;
+}
+
+.contact-item{
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+
+.contact-item h6{
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: var(--yellow-color);
+}
+
+.contact-item hr{
+    width: 125px;
+    height: 2px;
+    background-color: #28a745;
+    margin: 0 0 24px;
+}
+
+.contact-item p{
+    font-size: 16px;
+    color: #FED136;
+    margin: 8px 0 16px;
+}
+
+.contact__list{
+    padding-left: 0;
+}
+
+.contact__list-item{
+    font-size: 16px;
+    list-style-type: none;
+    color: var(--yellow-color);
+    margin: 12px 0;
+}
+
+.contact__list-item:hover{
+    text-decoration: underline;
+}
+
+.contact__list-item > a{
+    text-decoration: none;
+    color: var(--yellow-color);
+}
+
+@media (min-width:1024px){
+
+    .navbar__button{
+        display: none;
+    }
+
+    #content{
+        max-width: 1140px;
+    }
+
+}
+
+@media (min-width:740px) and (max-width: 1023px){
+
+    #content{
+        max-width: 960px;
+    }
+
+    .product{
+        width: 49%;
+        flex: 0 0 49%;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar__logo{
+        margin-left: 40px;
+    }
+
+    .navbar__list{
+        display : none;
+        position: absolute;
+        flex-basis: 1;
+        top: 59.6px;
+        background-color: #212529;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .navbar__list-items{
+        display: block;
+        padding-left: 0;
+    }
+
+    .navbar__list-item{
+        padding: 8px 0;
+        padding-left: 50px;
+    }
+
+    .navbar__list-item-link{
+        width: 100%;
+    }
+
+    .navbar__button{
+        right: 0;
+        display: block;
+        font-size: 16px;
+        background-color: var(--yellow-color);
+        border: none;
+        padding: 12px;
+        margin-right: 40px;
+    }
+
+    .navbar-item-cart{
+        padding: 8px 0 8px 50px;
+
+    }
+
+}
+
+@media (max-width : 739px) {
+
+    .navbar{
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar__logo{
+        margin-left: 40px;
+    }
+
+    .navbar__list{
+        display : none;
+        position: absolute;
+        flex-basis: 1;
+        top: 59.6px;
+        background-color: #212529;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .navbar__list-items{
+        display: block;
+        padding-left: 0;
+    }
+
+    .navbar__list-item{
+        padding: 8px 0;
+        padding-left: 50px;
+    }
+
+    .navbar__list-item-link{
+        width: 100%;
+    }
+
+    .navbar__button{
+        right: 0;
+        display: block;
+        font-size: 16px;
+        background-color: var(--yellow-color);
+        border: none;
+        padding: 12px;
+        margin-right: 40px;
+    }
+
+    .navbar-item-cart{
+        padding: 8px 0 8px 50px;
+
+    }
+
+    .product{
+        width: 99%;
+        flex: 0 0 99%;
+    }
+
+    #content{
+        max-width: 540px;
+    }
+
+    #contact .row{
+        flex-wrap: wrap;
+        
+    }
+
+    .contact-item{
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: center  ;
+    }
+
+    .contact-item hr{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

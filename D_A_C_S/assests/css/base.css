@@ -1,0 +1,143 @@
+:root{
+    --white-color: #fff;
+    --black-color : #000;
+    --gray-color : #212529 ;
+    --yellow-color : #ffc800;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+/* Dùng chung */
+
+/* Display */
+
+.display-none{
+    display: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* font-size */
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+
+.font-36{
+    font-size: 36px;
+}
+
+.font-72{
+    font-size: 72px;
+}
+
+/* Padding */
+
+.padding-5-0{
+    padding: 5px 0;
+}
+
+.padding-8{
+    padding: 8px;
+}
+
+.padding-8-16{
+    padding: 8px 16px;
+}
+
+.padding-20-40{
+    padding: 20px 40px;
+}
+
+.padding-b-16{
+    padding-bottom: 16px;
+}
+/* Margin */
+.margin-t-88{
+    margin-top: 88px;
+}
+
+.margin-b-16{
+    margin-bottom: 16px;
+}
+
+.margin-b-50{
+    margin-bottom: 50px;
+}
+
+.padding-t-50{
+    padding-top: 50px;
+}
+
+/* row and colunm */
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex: 50%;
+}
+
+.col-4{
+    flex:  0 0 24.32%;
+    width: 24.32%;
+}
+
+.col-4s{
+    flex: 0 0 33.33333%;
+    width: 33.33333%;
+}
+
+.col-6{
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-8{
+    flex: 0 0 66.66667%;
+    width: 66.66667%;
+}
+
+.h{
+    height: 24  px;
+}
+
+.t{
+    height: 21px;
+}
+

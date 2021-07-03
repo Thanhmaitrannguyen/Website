@@ -1,0 +1,99 @@
+
+
+
+.ctn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont__img img{
+    width: 100%;
+}
+
+.title h1{
+    font-size: 21px;
+    font-weight: 400px;
+    color: #333;
+}
+.date{
+    font-size: 10px;
+}
+
+.cont p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.cont h2{
+    font-size: 26px;
+}
+
+.x{
+    padding: 0 12px;
+}
+
+.qc__form h3{
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.qc__form input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 6px;
+    font-size: 14px;
+}
+
+.qc__form textarea{
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 6px;
+}
+
+.qc__form button{
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: var(--yellow-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (min-width:1024px){
+    .ctn{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:740px) and (max-width: 1023px){
+    .ctn{
+        max-width: 960px;
+    }
+}
+
+@media (max-width : 739px) {
+    .ctn{
+        max-width: 720px;
+    }
+    .cont{
+        width: 100%;
+        flex: 0 0 100%;
+        padding: 0 4px;
+    }
+
+    .qc__form input{
+        margin-top: 2px;
+    }
+
+    .x{
+        width: 100%;
+        flex: 0 0 100%;
+        padding: 0 4px;
+        padding-bottom: 16px;
+    }
+
+    .x a , .x h2 , .x img{
+        display: none;
+    }
+}
