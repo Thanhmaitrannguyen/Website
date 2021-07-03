@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Idea</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/main_shop.css">
+    <link rel="stylesheet" href="./assests/css/main_ct.css">
+    <link rel="stylesheet" href="./assests/css/tt.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="navbar__logo"><a href="#" class="">Idea Shop</a></div>
+            <button id="menu" class="navbar__button"> <span><i class="fas fa-bars"></i></span> </button>
+    
+            <div id="navbar__list" class="navbar__list">
+                <ul class="navbar__list-items">
+                    <li class="navbar__list-item"><a class="navbar__list-item-link" href="./index.html">Trang chủ</a></li>
+                    <li class="navbar__list-item"><a class="navbar__list-item-link" href="./shop.html">Bản vẽ</a></li>
+                    <li class="navbar__list-item"><a class="navbar__list-item-link" href="./shop2.html">Nội thất</a></li>
+                    <form class="navbar-item-cart" action="./giohang.html">
+                        <button class="navbar-item-cart-btn" >
+                            <i class="fas fa-shopping-cart"></i>
+                            Giỏ hàng
+                            <span class="navbar-item-cart-number">0</span>
+                        </button>
+                        
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="search">
+            <form action="" class="search__form">
+                <input class="search__view" type="search" name="" id="" autocomplete="off" placeholder="Tìm sản phẩm...">
+                <button class="search__btn"><i class="fas fa-search"></i></button>
+            </form>
+            <hr>
+        </div>
+        <span class="poster">
+            <a class="poster__item" href="">Bản vẽ nhà 1 tầng</a>
+            <a class="poster__item" href="">Bản vẽ nhà đẹp</a>
+            <a class="poster__item" href="">Bản vẽ nhà dưới 500 triệu</a>
+            <a class="poster__item" href="">Bản vẽ nhà cấp 4</a>
+            <a class="poster__item" href="">Mẫu nhà rẻ</a>
+            <a class="poster__item" href="">Bản vẽ nhà nhà vườn</a>
+            <a class="poster__item" href="">Mẫu nhà hiện đại</a>
+
+        </span>
+        <h1 class="title">Thanh toán</h1>
+        <hr class="title__ke">
+        <div class="thongtin">
+            <h6 class="thongtin__title">Thông tin thanh toán</h6>
+            <div class="">
+                <p class="thongtin__view-lastname">
+                    <label for="">Tên (*) </label>
+                    <span>
+                        <input type="text" placeholder="Tên">
+                    </span>
+                </p> 
+                <p class="thongtin__view-fistname">
+                    <label for="">Họ (*) </label>
+                    <span>
+                        <input type="text" placeholder="Họ">
+                    </span>
+                </p>
+                <div class="clear"></div>
+            </div>
+            <div class="thongtin__view">
+                <p>
+                    <label for="">Địa chỉ (*) </label>
+                    <span>
+                        <input type="text" placeholder="Địa chỉ (số nhà , tòa nhà ...)">
+                    </span>
+                </p>
+            </div>
+            <div class="thongtin__view">
+                <p>
+                    <label for="">Tỉnh / Thành phố (*) </label>
+                    <span>
+                        <input type="text" placeholder="Tỉnh / Thành phố">
+                    </span>
+                </p>
+            </div>
+            <div class="thongtin__view">
+                <p>
+                    <label for="">Địa chỉ email (*) </label>
+                    <span>
+                        <input type="text" placeholder="Email">
+                    </span>
+                </p>
+            </div>
+            <div class="thongtin__view">
+                <p>
+                    <label for="">Số điện thoại (*) </label>
+                    <span>
+                        <input type="text" placeholder="Số điện thoại">
+                    </span>
+                </p>
+            </div>
+            <div class="thongtin__view">
+                <p>
+                    <label for="">Ghi chú đơn hàng </label>
+                    <span>
+                        <textarea placeholder="Ghi chú về đơn hàng ...." name="" id="" cols="30" rows="10"></textarea>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="tinhtien">
+            <div class="tinhtien__form">
+                <h5 class="tinhtien__form-title">Đơn hàng của bạn</h5>
+                <div class="rows">
+                    <div class="col-6">
+                        <h5>Sản phẩm</h5>
+                    </div>
+                    <div class="col-6 a">
+                        <h5>Tạm tính</h5>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="rows">
+                    <div class="col-6">
+                        <p>Bản vẽ nhà 1 tầng đơn giản 90m2 xây dựng 500 triệu 2 phòng ngủ</p>
+                    </div>
+                    <div class="col-6 rows a">
+                        <p>6.900.000</p>
+                        <span>VNĐ</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="rows">
+                    <div class="col-6">
+                       <h5>Tạm tính</h5>
+                    </div>
+                    <div class="col-6 rows a">
+                        <p>6.900.000</p>
+                        <span>VNĐ</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="rows">
+                    <div class="col-6">
+                       <h5>Tổng</h5>
+                    </div>
+                    <div class="col-6 rows a">
+                        <p>6.900.000</p>
+                        <span>VNĐ</span>
+                    </div>
+                </div>
+                <h5>Phương thức thanh toán</h5>
+                <ul>
+                    <li>
+                        <input type= "radio">
+                        <label for="">Trả tiền mặt</label>
+                    </li>
+                    <li>
+                        <input type= "radio" checked= "checked">
+                        <label for="">Chuyển khoản ngân hàng</label>
+                    </li>
+                </ul>
+                <p>Dữ liệu cá nhân của bạn sẽ được sử dụng để xử lý đơn đặt hàng của bạn, hỗ trợ trải nghiệm của bạn trên trang web này và cho các mục đích khác được mô tả trong <a>chính sách riêng tư</a> của chúng tôi.</p>
+                <input type="checkbox"> <label for="">Tôi đã đọc và đồng ý với điều khoản và điều kiện của website  </label>
+
+                <div class="tinhtien__form-btn" ><button style="cursor: pointer;">Đặt hàng</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    </div>
+
+    <footer>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-item col-4">
+                        <h6>IDEARCHITECT</h6>
+                        <hr>
+                        <p>IdeaArchitect là một nền tảng giúp người dùng có thể học hỏi , tìm hiểu về kiến trúc cũng như mua bán các sản phẩm liên quan .</p>
+                    </div>
+                    <div class="contact-item col-4">
+                        <h6>VỀ KIẾN TRÚC</h6>
+                        <hr>
+                        <ul class="contact__list">
+                            <li class="contact__list-item"><a href="./tapchi.html">Thởi kì đồ đá</a></li>
+                            <li class="contact__list-item"><a href="./tapchi.html">Thởi kì cổ đại</a></li>
+                            <li class="contact__list-item"><a href="./tapchi.html">Thởi kì Á Đông</a></li>
+                            <li class="contact__list-item"><a href="./tapchi.html">Thởi kì châu Âu</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-item col-4">
+                        <h6>VỀ KIẾN TRÚC</h6>
+                        <hr>
+                        <ul class="contact__list">
+                            <li class="contact__list-item"><a href="./shop.html">Bản vẽ công trình 3D</a></li>
+                            <li class="contact__list-item"><a href="./shop2.html">Thiết kế nội thất</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-item col-4">
+                        <h6>Liên hệ</h6>
+                        <hr>
+                        <ul class="contact__list">
+                            <li class="contact__list-item"><i class="fas fa-home"></i>370 Trần Đại Nghĩa</li>
+                            <li class="contact__list-item"><i class="fas fa-envelope"></i>vvv@gmail.com</li>
+                            <li class="contact__list-item"><i class="fab fa-facebook"></i>Idea Architect</li>
+                            <li class="contact__list-item"><i class="fas fa-phone"></i>+84867852937</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('navbar__list');
+        var navHeight = nav.clientHeight;
+        menu.onclick = function(){
+            var isClose = nav.clientHeight === navHeight;
+
+            if (isClose) {
+                nav.style.display  = 'block';
+            }
+            else{
+                nav.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
